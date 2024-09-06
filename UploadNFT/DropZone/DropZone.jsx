@@ -42,7 +42,8 @@ const DropZone = ({
               alt="upload"
               width={100}
               height={100}
-              objectFit="contain"
+              // objectFit="contain"
+              style={{ objectFit: 'cover' }}
               className={Style.DropZone_box_input_img_img}
             />
           </div>
